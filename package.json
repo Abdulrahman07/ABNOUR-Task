@@ -1,0 +1,28 @@
+{
+  "name": "abnour-task",
+  "version": "1.0.0",
+  "description": "task using node, express and prisma",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Abdulrahman Fathy",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prisma": "^4.13.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
